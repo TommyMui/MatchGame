@@ -106,7 +106,7 @@ namespace MatchGame
             }
         }
 
-        private void TimerTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        private void TimerTextBlock_MouseDown(object sender, MouseButtonEventArgs e)    //
         {
             if (matchesFound == 8)                                      //When TimeTextBlock click, and "matchesFound" equal to 8 pairs, 
             {
